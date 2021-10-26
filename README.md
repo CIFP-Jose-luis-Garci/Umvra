@@ -3,4 +3,4 @@ Sergio Grande Hernández
 -Modelado y texturizado
 
 Natalia Gómez Antón
-Concept art y diseño de niveles
+-Concept art y diseño de niveles
