@@ -9,4 +9,4 @@ Mauricio García Huamán
 -Diseñador de interfaz y mecánicas y monetización
 
 Javier Gómez Sánchez
-- Referencias
+- Referencias para el juego, guión
