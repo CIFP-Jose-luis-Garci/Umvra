@@ -1,6 +1,7 @@
 # Umvra
 Sergio Grande Hernández
 -Animador y diseño de niveles
+
 Natalia Gómez Antón
 -Concept art y diseño de niveles
 
