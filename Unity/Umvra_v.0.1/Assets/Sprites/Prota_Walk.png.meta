@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 2155630e545b4444aa216ecbf9e459a9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3835907683955224344
+    second: Prota_Walk_0
+  - first:
+      213: -7452737568772250020
+    second: Prota_Walk_1
+  - first:
+      213: -2386190723474850834
+    second: Prota_Walk_2
+  - first:
+      213: 3836368017903286967
+    second: Prota_Walk_4
+  - first:
+      213: 4140002456285993364
+    second: Prota_Walk_5
+  - first:
+      213: -7543426648061990171
+    second: Prota_Walk_6
+  - first:
+      213: -8892826532743410075
+    second: Prota_Walk_7
+  - first:
+      213: 7441267508306770201
+    second: Prota_Walk_8
+  - first:
+      213: -2382423074272301910
+    second: Prota_Walk_9
+  - first:
+      213: -196571115566684254
+    second: Prota_Walk_10
+  - first:
+      213: 6207177572814695176
+    second: Prota_Walk_12
+  - first:
+      213: -4053687861558896462
+    second: Prota_Walk_13
+  - first:
+      213: -7805799540965562054
+    second: Prota_Walk_14
+  - first:
+      213: 4663650338640831523
+    second: Prota_Walk_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,7 +155,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Prota_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1777
+        width: 100
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fa75d07b1eb3530800000000000000
+      internalID: 3835907683955224344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1776
+        width: 106
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c562f11eaae829890800000000000000
+      internalID: -7452737568772250020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1775
+        width: 99
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebf2f8fd2c82eed0800000000000000
+      internalID: -2386190723474850834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1774
+        width: 108
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba7bc6e2648d3530800000000000000
+      internalID: 3836368017903286967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1771
+        width: 103
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499db20ac4e347930800000000000000
+      internalID: 4140002456285993364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1768
+        width: 99
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaac0d2e6d505790800000000000000
+      internalID: -7543426648061990171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1771
+        width: 100
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e09aa7265569480800000000000000
+      internalID: -8892826532743410075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1501
+        width: 100
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919f74f8f51b44760800000000000000
+      internalID: 7441267508306770201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1500
+        width: 106
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2e4926deefeed0800000000000000
+      internalID: -2382423074272301910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1499
+        width: 99
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7ab83ac93a54df0800000000000000
+      internalID: -196571115566684254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1498
+        width: 105
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b246d8d13542650800000000000000
+      internalID: 6207177572814695176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1495
+        width: 109
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b818750e586eb7c0800000000000000
+      internalID: -4053687861558896462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1492
+        width: 104
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3927d4acaa3ca390800000000000000
+      internalID: -7805799540965562054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1495
+        width: 97
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324215f164d98b040800000000000000
+      internalID: 4663650338640831523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
