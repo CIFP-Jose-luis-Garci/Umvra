@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1003193110}
   - component: {fileID: 1003193109}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 1117699666}
   - component: {fileID: 1117699665}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Pared_izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 1395555404}
   - component: {fileID: 1395555403}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Pared_enf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 2136592989}
   - component: {fileID: 2136592988}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Pared_der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
