@@ -20,7 +20,7 @@ public class MovRobot : MonoBehaviour
 
     bool facingRight = true;
 
-
+    Mov_Camara Camera;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +50,22 @@ public class MovRobot : MonoBehaviour
 
 
     }
+
+    Camera = GetComponent< >();
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Pared")
+        {
+
+        }
+    }
+
+
+
+
+
+
     private void FixedUpdate()
     {
         if (alive)
