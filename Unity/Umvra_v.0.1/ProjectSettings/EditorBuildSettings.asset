@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Spawn.unity
+    guid: 61ab787ea4ce33c44a334839055fd2a7
+  - enabled: 1
+    path: Assets/Scenes/EscaleraL.unity
+    guid: b0d01f8292ed46242bf6c72d8b1a6a21
+  - enabled: 1
+    path: Assets/Scenes/Lavanderia.unity
+    guid: 33d9332421f23014cbf6d3e7e43894e6
+  - enabled: 1
+    path: Assets/Scenes/DormitorioL.unity
+    guid: b8af478ea28d533459816fb6a1ebc497
+  - enabled: 1
+    path: Assets/Scenes/PasilloMedio.unity
+    guid: 4f10a472fe95a384aa0f7dcd2d113f3e
+  - enabled: 1
+    path: Assets/Scenes/OfficeR.unity
+    guid: ddb0ecbb199b17245af95503d0f23b73
+  - enabled: 1
+    path: Assets/Scenes/OfficeL.unity
+    guid: ac7cd114e5683dd4d84d4f38710c4fa2
   m_configObjects: {}
