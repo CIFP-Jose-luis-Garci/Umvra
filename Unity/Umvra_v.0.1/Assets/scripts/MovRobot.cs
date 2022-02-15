@@ -161,19 +161,7 @@ public class MovRobot : MonoBehaviour
         speed = 15f;
     }
 
-    void Crouch()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            animator.SetBool("Crouch", true);
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            animator.SetBool("Crouch", false);
-        }
-
-
-    }
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
