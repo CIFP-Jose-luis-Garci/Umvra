@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 87924435}
   - component: {fileID: 87924434}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Volver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 165083200}
   - component: {fileID: 165083199}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Volumen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 329868935}
   - component: {fileID: 329868934}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Brillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -799,7 +799,7 @@ GameObject:
   - component: {fileID: 668608270}
   - component: {fileID: 668608269}
   m_Layer: 0
-  m_Name: UI_sliders (1)
+  m_Name: UI_sliders_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 906301845}
   - component: {fileID: 906301844}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 1270936987}
   - component: {fileID: 1270936986}
   m_Layer: 5
-  m_Name: Slider (1)
+  m_Name: Slider_brillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 1435227144}
   - component: {fileID: 1435227143}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Opciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1646,7 +1646,7 @@ GameObject:
   - component: {fileID: 1697032108}
   - component: {fileID: 1697032109}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Slider_vol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

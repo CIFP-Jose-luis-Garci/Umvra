@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 192646654}
   - component: {fileID: 192646653}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Opciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 507144414}
   - component: {fileID: 507144413}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Continuar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 1593043659}
   - component: {fileID: 1593043658}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Creditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 1842199951}
   - component: {fileID: 1842199950}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1255,7 +1255,7 @@ GameObject:
   - component: {fileID: 2006158987}
   - component: {fileID: 2006158986}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Nueva_Par
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
