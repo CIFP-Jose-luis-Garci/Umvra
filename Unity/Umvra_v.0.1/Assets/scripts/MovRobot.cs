@@ -51,13 +51,13 @@ public class MovRobot : MonoBehaviour
 
     }
 
-    //Camera = GetComponent<>();
+   // Camera = GetComponent<StopFollowing>();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Pared")
         {
-
+           // SendMessage
         }
     }
 
