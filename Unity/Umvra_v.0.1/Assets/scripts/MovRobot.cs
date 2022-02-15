@@ -51,7 +51,7 @@ public class MovRobot : MonoBehaviour
 
     }
 
-    Camera = GetComponent< >();
+    //Camera = GetComponent<>();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
