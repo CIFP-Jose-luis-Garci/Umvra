@@ -45,7 +45,7 @@ public class MovRobot : MonoBehaviour
 
             Saltar();
 
-            Crouch();
+           
         }
 
 
