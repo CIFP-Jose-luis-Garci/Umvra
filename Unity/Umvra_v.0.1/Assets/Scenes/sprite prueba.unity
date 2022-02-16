@@ -262,6 +262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fadca787de68c4649b3f8a3c7c8c9c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPosition: {fileID: 0}
+  smoothVelocity: 0.3
+  camaraVelocity: {x: 0, y: 0, z: 0}
+  offsetY: 3
+  isFollowing: 1
 --- !u!81 &970043130
 AudioListener:
   m_ObjectHideFlags: 0
@@ -843,12 +848,24 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.78
+      value: 12.58
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.z
