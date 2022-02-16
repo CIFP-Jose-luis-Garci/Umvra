@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Dormitorio
+  - Cocina
+  - EscaleraL
+  - Menu
+  - OfficeLL
+  - OfficeR
+  - Opciones
+  - Pasilloarriba
+  - PasilloMedio
+  - Spawn
   layers:
   - Default
   - TransparentFX
