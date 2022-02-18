@@ -1588,7 +1588,7 @@ GameObject:
   - component: {fileID: 1967603821}
   - component: {fileID: 1967603820}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: CambioEscena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

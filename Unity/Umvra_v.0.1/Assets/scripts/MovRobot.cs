@@ -184,20 +184,56 @@ public class MovRobot : MonoBehaviour
         }
 
     }
-     void SiguienteNivel(Collision2D collision)
-    {
-        if (collision.gameObject.layer == 6)
-        {
-            SceneManager.LoadScene("");
-        }
-
-    }
+    
+  
 
     private void OnCollision2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.tag == "Cocina")
         {
-            SceneManager.LoadScene("Niv2");
+            SceneManager.LoadScene("cocina");
+        }
+
+        if (collision.gameObject.tag == "EscaleraL")
+        {
+            SceneManager.LoadScene("EscaleraL");
+        }
+
+        if (collision.gameObject.tag == "Lavanderia")
+        {
+            SceneManager.LoadScene("Lavanderia");
+        }
+
+        if (collision.gameObject.tag == "Minipasillo")
+        {
+            SceneManager.LoadScene("Minipasillo");
+        }
+
+        if (collision.gameObject.tag == "OfficeR")
+        {
+            SceneManager.LoadScene("OfficeR");
+        }
+
+        if (collision.gameObject.tag == "OfficeLL")
+        {
+            SceneManager.LoadScene("OfficeLL");
+        }
+
+        if (collision.gameObject.tag == "Pasilloarriba")
+        {
+            SceneManager.LoadScene("Pasilloarriba");
+        }
+        if (collision.gameObject.tag == "PasilloMedio")
+        {
+            SceneManager.LoadScene("PasilloMedio");
+        }
+        if (collision.gameObject.tag == "Spawn")
+        {
+            SceneManager.LoadScene("Spawn");
+        }
+        if (collision.gameObject.tag == "Dormitorio")
+        {
+            SceneManager.LoadScene("DormitorioL");
         }
 
     }
