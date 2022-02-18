@@ -127,12 +127,12 @@ public class MovRobot : MonoBehaviour
     {
         if (desplX < 0 && facingRight)
         {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-4f, 4f, 4f);
             facingRight = false;
         }
         else if (desplX > 0 && !facingRight)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(4f, 4f, 4f);
             facingRight = true;
         }
     }
@@ -223,14 +223,17 @@ public class MovRobot : MonoBehaviour
         {
             SceneManager.LoadScene("Pasilloarriba");
         }
+
         if (collision.gameObject.tag == "PasilloMedio")
         {
             SceneManager.LoadScene("PasilloMedio");
         }
+
         if (collision.gameObject.tag == "Spawn")
         {
             SceneManager.LoadScene("Spawn");
         }
+
         if (collision.gameObject.tag == "Dormitorio")
         {
             SceneManager.LoadScene("DormitorioL");
