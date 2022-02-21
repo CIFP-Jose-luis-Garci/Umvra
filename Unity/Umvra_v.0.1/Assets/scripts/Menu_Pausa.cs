@@ -23,10 +23,12 @@ public class Menu_Pausa : MonoBehaviour
     public void Opciones()
     {
         panel_ajustes.SetActive(true);
+        panel_pausa.SetActive(false);
     }
 
     public void Volver_Pausa()
     {
         panel_ajustes.SetActive(false);
+        panel_pausa.SetActive(true);
     }
 }

@@ -19,6 +19,7 @@ public class UI_Botones : MonoBehaviour
 
     public void Menu_Prin()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 }

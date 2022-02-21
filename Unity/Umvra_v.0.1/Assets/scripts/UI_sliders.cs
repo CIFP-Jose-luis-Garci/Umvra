@@ -5,17 +5,21 @@ using UnityEngine.UI;
 
 public class UI_sliders : MonoBehaviour
 {
-    float volumen;
-    float brillo;
-    [SerializeField] Slider mySlider;
+    public Slider sliderBrillo;
+    public float sliderValueBrillo;
+    public Image panelBrillo;
 
-    public void SubirVolumen()
+    void Start()
     {
-        volumen = (mySlider.value);
+        sliderBrillo.value = PlayerPrefs.GetFloat("brillo", 0.5f);
+
+        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, sliderBrillo.value);
     }
 
-    public void SubirBrillo()
+    public void CambiarSlider(float valor)
     {
-        brillo = (mySlider.value);
+        sliderValueBrillo = valor;
+        PlayerPrefs.SetFloat("brillo", sliderValueBrillo);
+        panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, sliderBrillo.value);
     }
 }
