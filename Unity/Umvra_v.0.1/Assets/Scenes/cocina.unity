@@ -433,6 +433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 614b9247610da36438e30ac9fe9739fb, type: 3}
+--- !u!1 &207959762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4211259409471090652, guid: e4bba3fc6b8cd5a4184349dece4a4087, type: 3}
+  m_PrefabInstance: {fileID: 4211259409035830205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &209906539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1652,6 +1657,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5797762937974649647, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: panel_pausa
+      value: 
+      objectReference: {fileID: 207959762}
     - target: {fileID: 7053156374191370071, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_Name
       value: prota_falso

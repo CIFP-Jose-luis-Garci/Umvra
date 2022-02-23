@@ -10,8 +10,12 @@ public class Menu_Pausa : MonoBehaviour
 
     public void Pausa()
     {
-        Time.timeScale = 0;
-        panel_pausa.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            panel_pausa.SetActive(true);
+        }
+            
     }
 
     public void Volver()
