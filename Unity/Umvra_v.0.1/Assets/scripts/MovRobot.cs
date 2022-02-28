@@ -22,7 +22,7 @@ public class MovRobot : MonoBehaviour
 
     Mov_Camara Camera;
 
-//  public GameObject panel_pausa;
+  public GameObject panel_pausa;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,7 +50,7 @@ public class MovRobot : MonoBehaviour
            
         }
 
-
+        Pausar();
     }
 
    // Camera = GetComponent<StopFollowing>();
@@ -74,7 +74,7 @@ public class MovRobot : MonoBehaviour
         {
             Caminar();
             Correr();
-       //   Pausar();
+          
         }
 
     }
@@ -164,14 +164,14 @@ public class MovRobot : MonoBehaviour
         speed = 15f;
     }
 
- // void Pausar()
- // {
-   //   if (Input.GetKeyDown(KeyCode.Escape))
-    //  {
-   //       Time.timeScale = 0;
-    //  panel_pausa.SetActive(true);
-     // }
-//  }
+  void Pausar()
+  {
+      if (Input.GetKeyDown(KeyCode.Escape))
+      {
+          Time.timeScale = 0;
+      panel_pausa.SetActive(true);
+      }
+  }
 
     
 
