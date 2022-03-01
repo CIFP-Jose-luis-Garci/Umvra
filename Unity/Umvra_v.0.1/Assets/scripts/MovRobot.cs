@@ -63,6 +63,7 @@ public class MovRobot : MonoBehaviour
         }
     }
 
+<<<<<<< Updated upstream
     private void OnTriggerExit2D(Collider2D other)
     {
        
@@ -71,6 +72,9 @@ public class MovRobot : MonoBehaviour
             cameraFollow.SendMessage("StartFollowing");
         }
     }
+=======
+   
+>>>>>>> Stashed changes
 
 
 
@@ -208,54 +212,55 @@ public class MovRobot : MonoBehaviour
     
   
 
-    private void OnCollision2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "Cocina")
+        if (other.gameObject.tag == "Cocina")
         {
             SceneManager.LoadScene("cocina");
         }
 
-        if (collision.gameObject.tag == "EscaleraL")
+        if (other.gameObject.tag == "EscaleraL")
         {
             SceneManager.LoadScene("EscaleraL");
         }
 
-        if (collision.gameObject.tag == "Lavanderia")
+        if (other.gameObject.tag == "Lavanderia")
         {
             SceneManager.LoadScene("Lavanderia");
         }
 
-        if (collision.gameObject.tag == "Minipasillo")
+        if (other.gameObject.tag == "Minipasillo")
         {
             SceneManager.LoadScene("Minipasillo");
         }
 
-        if (collision.gameObject.tag == "OfficeR")
+        if (other.gameObject.tag == "OfficeR")
         {
             SceneManager.LoadScene("OfficeR");
         }
 
-        if (collision.gameObject.tag == "OfficeLL")
+        if (other.gameObject.tag == "OfficeLL")
         {
             SceneManager.LoadScene("OfficeLL");
         }
 
-        if (collision.gameObject.tag == "Pasilloarriba")
+        if (other.gameObject.tag == "Pasilloarriba")
         {
             SceneManager.LoadScene("Pasilloarriba");
         }
 
-        if (collision.gameObject.tag == "PasilloMedio")
+        if (other.gameObject.tag == "PasilloMedio")
         {
             SceneManager.LoadScene("PasilloMedio");
         }
 
-        if (collision.gameObject.tag == "Spawn")
+        if (other.gameObject.tag == "Spawn")
         {
             SceneManager.LoadScene("Spawn");
+            print("Colision realizada");
         }
 
-        if (collision.gameObject.tag == "Dormitorio")
+        if (other.gameObject.tag == "Dormitorio")
         {
             SceneManager.LoadScene("DormitorioL");
         }
