@@ -55,15 +55,8 @@ public class MovRobot : MonoBehaviour
 
     // Camera = GetComponent<StopFollowing>();
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.name == "Pared")
-        {
-            cameraFollow.SendMessage("StopFollowing");
-        }
-    }
+   
 
-<<<<<<< Updated upstream
     private void OnTriggerExit2D(Collider2D other)
     {
        
@@ -72,9 +65,7 @@ public class MovRobot : MonoBehaviour
             cameraFollow.SendMessage("StartFollowing");
         }
     }
-=======
-   
->>>>>>> Stashed changes
+
 
 
 
@@ -213,7 +204,16 @@ public class MovRobot : MonoBehaviour
   
 
     private void OnTriggerEnter2D(Collider2D other)
+
     {
+        if (other.gameObject.name == "Pared")
+        {
+            cameraFollow.SendMessage("StopFollowing");
+        }
+
+
+
+
         if (other.gameObject.tag == "Cocina")
         {
             SceneManager.LoadScene("cocina");
