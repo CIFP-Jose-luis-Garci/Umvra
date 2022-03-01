@@ -8,7 +8,7 @@ public class MovRobot : MonoBehaviour
 
     Animator animator;
     Rigidbody2D rb;
-
+    Mov_Camara cameraFollow;
     float speed;
     [SerializeField] float maxSpeed;
     [SerializeField] float Speed;
@@ -31,8 +31,8 @@ public class MovRobot : MonoBehaviour
 
         Speed = 3.5f;
         jumpForce = 10f;
-       // maxSpeed = 5f;
-
+        // maxSpeed = 5f;
+        cameraFollow = GameObject.Find("Main Camera").GetComponent<Mov_Camara>();
 
     }
 
@@ -53,13 +53,22 @@ public class MovRobot : MonoBehaviour
         Pausar();
     }
 
-   // Camera = GetComponent<StopFollowing>();
+    // Camera = GetComponent<StopFollowing>();
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.tag == "Pared")
+        if (other.gameObject.name == "Pared")
         {
-           // SendMessage
+            cameraFollow.SendMessage("StopFollowing");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+       
+        if (other.gameObject.name == "Pared")
+        {
+            cameraFollow.SendMessage("StartFollowing");
         }
     }
 
@@ -130,7 +139,7 @@ public class MovRobot : MonoBehaviour
     {
         if (desplX < 0 && facingRight)
         {
-            transform.localScale = new Vector3(-4f, 4f, 4f);
+            transform.localScale = new Vector3(4f, 4f, 4f);
             facingRight = false;
         }
         else if (desplX > 0 && !facingRight)

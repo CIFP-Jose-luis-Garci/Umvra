@@ -9,8 +9,8 @@ public class Mov_Camara : MonoBehaviour
     [SerializeField] float smoothVelocity = 0.3F;
     [SerializeField] Vector3 camaraVelocity = Vector3.zero;
 
-    [SerializeField] float offsetY = 3f;
-
+    [SerializeField] float offsetY = 2f;
+    [SerializeField] float offsetZ = 2f;
 
     [SerializeField] bool isFollowing = true;
 
@@ -18,7 +18,7 @@ public class Mov_Camara : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      
     }
 
     // Update is called once per frame
@@ -26,11 +26,11 @@ public class Mov_Camara : MonoBehaviour
     {
         if (isFollowing)
         {
-            Vector3 targetPosition = new Vector3(playerPosition.position.x, playerPosition.position.y + offsetY, transform.position.z);
+            Vector3 targetPosition = new Vector3(playerPosition.position.x, playerPosition.position.y + offsetY, transform.position.z + offsetZ);
             transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camaraVelocity, smoothVelocity);
         }
 
-        
+
     }
 
     public void StopFollowing()
