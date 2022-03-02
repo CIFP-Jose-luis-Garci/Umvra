@@ -17,11 +17,12 @@ TagManager:
   - Minipasillo
   - PuertaBloq
   - Lavanderia
+  - Eggs
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Suelo
   - Water
   - UI
   - 

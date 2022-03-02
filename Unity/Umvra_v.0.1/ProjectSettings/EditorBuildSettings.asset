@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OfficeLL.unity
     guid: d25492a99a1859c43b65c689c201b9ac
+  - enabled: 1
+    path: Assets/Scenes/EasterEGGS.unity
+    guid: e514e5a6d2d00c84aab61bbda0b23360
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

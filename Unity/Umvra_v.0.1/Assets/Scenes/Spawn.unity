@@ -335,7 +335,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 815841498367997611, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_Name
-      value: Pared (2)
+      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4102890163719151691, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_RootOrder
@@ -1323,6 +1323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7414500552218735572, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7053156374191370071, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_Name
       value: prota_falso
@@ -1442,7 +1446,7 @@ GameObject:
   - component: {fileID: 981350426}
   - component: {fileID: 981350425}
   - component: {fileID: 981350424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1629,7 +1633,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -2.2683315, y: -5.716121}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1640,7 +1644,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 13.195913, y: 2.9679365}
   m_EdgeRadius: 0
 --- !u!1 &1215479074
 GameObject:
@@ -2291,7 +2295,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 815841498367997611, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_Name
-      value: Pared (1)
+      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4102890163719151691, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_RootOrder
@@ -2348,7 +2352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 815841498367997611, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_Name
-      value: Pared (3)
+      value: Pared
       objectReference: {fileID: 0}
     - target: {fileID: 4102890163719151691, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_RootOrder

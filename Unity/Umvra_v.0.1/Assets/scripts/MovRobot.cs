@@ -29,7 +29,7 @@ public class MovRobot : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
-        Speed = 14f;
+        Speed = 25f;
         jumpForce = 10f;
         // maxSpeed = 5f;
         cameraFollow = GameObject.Find("Main Camera").GetComponent<Mov_Camara>();
@@ -78,7 +78,7 @@ public class MovRobot : MonoBehaviour
         {
             Caminar();
             Correr();
-          
+           
         }
 
     }
@@ -150,6 +150,7 @@ public class MovRobot : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
+            print ("salto");
         }
     }
     void Correr()
@@ -265,5 +266,9 @@ public class MovRobot : MonoBehaviour
             SceneManager.LoadScene("DormitorioL");
         }
 
+        if (other.gameObject.tag == "Eggs")
+        {
+            SceneManager.LoadScene("EasterEGGS");
+        }
     }
 }
