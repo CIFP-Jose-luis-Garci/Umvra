@@ -134,7 +134,7 @@ public class MovRobot : MonoBehaviour
     {
         if (desplX < 0 && facingRight)
         {
-            transform.localScale = new Vector3(4f, 4f, 4f);
+            transform.localScale = new Vector3(-4f, 4f, 4f);
             facingRight = false;
         }
         else if (desplX > 0 && !facingRight)
