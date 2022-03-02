@@ -29,7 +29,7 @@ public class MovRobot : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
-        Speed = 8f;
+        Speed = 14f;
         jumpForce = 10f;
         // maxSpeed = 5f;
         cameraFollow = GameObject.Find("Main Camera").GetComponent<Mov_Camara>();
