@@ -21,11 +21,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Lavanderia.unity
     guid: 33d9332421f23014cbf6d3e7e43894e6
   - enabled: 1
-    path: Assets/Scenes/DormitorioL.unity
-    guid: b8af478ea28d533459816fb6a1ebc497
-  - enabled: 1
     path: Assets/Scenes/PasilloMedio.unity
     guid: 4f10a472fe95a384aa0f7dcd2d113f3e
+  - enabled: 1
+    path: Assets/Scenes/Minipasillo.unity
+    guid: bbaa546100237ff44b673cc97762ae77
+  - enabled: 1
+    path: Assets/Scenes/OfficeR.unity
+    guid: 81ee4d5137e297746b3804a38e0725e2
+  - enabled: 1
+    path: Assets/Scenes/Pasilloarriba.unity
+    guid: 2946e58369887b04e9763042c6bac45a
+  - enabled: 1
+    path: Assets/Scenes/OfficeLL.unity
+    guid: d25492a99a1859c43b65c689c201b9ac
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
