@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.5, y: 22.4, z: -62.65}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 712216010138764196, guid: 54663fe87d163fa4284bb2f09f5b85f6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 712216010138764196, guid: 54663fe87d163fa4284bb2f09f5b85f6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -473,10 +473,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PUERTA (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 3912393560252659933, guid: 54663fe87d163fa4284bb2f09f5b85f6, type: 3}
-      propertyPath: m_TagString
-      value: Spawn
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54663fe87d163fa4284bb2f09f5b85f6, type: 3}
 --- !u!1 &319305690 stripped
@@ -494,10 +490,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 6.115303, y: -18.996939}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -508,20 +504,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.8855286, y: 38.993877}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &319305693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 319305690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64b1064bbc9ff544fa7b39c72709f23b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &373020198
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,18 +769,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37e8b3b2efb688445ab117b5f457bf00, type: 3}
-<<<<<<< Updated upstream
 --- !u!1001 &681236092
-=======
---- !u!1001 &613904661
->>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< Updated upstream
     - target: {fileID: 815841498367997611, guid: 9b0169df3786e654c8502835464f99ef, type: 3}
       propertyPath: m_Name
       value: Pared
@@ -854,23 +833,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-=======
-    - target: {fileID: 2274323170915170336, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5797762937974649647, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
-      propertyPath: Speed
-      value: 3.4
-      objectReference: {fileID: 0}
->>>>>>> Stashed changes
     - target: {fileID: 7053156374191370071, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_Name
       value: prota_falso
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< Updated upstream
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
@@ -880,17 +848,6 @@ PrefabInstance:
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 13.7
-=======
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -91.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 16.9
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -926,14 +883,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
-<<<<<<< Updated upstream
 --- !u!4 &698236038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
   m_PrefabInstance: {fileID: 698236037}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1001 &717204882
 PrefabInstance:
   m_ObjectHideFlags: 0
