@@ -617,7 +617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816744095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 142.6, y: 42.4, z: -111.4}
+  m_LocalPosition: {x: 142.6, y: 42.4, z: -54.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -638,7 +638,7 @@ MonoBehaviour:
   playerPosition: {fileID: 1081609168}
   smoothVelocity: 0.3
   camaraVelocity: {x: 0, y: 0, z: 0}
-  offsetY: 2
+  offsetY: 5
   offsetZ: 2
   isFollowing: 1
 --- !u!1 &882107332
@@ -803,7 +803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 229
+      value: 206
       objectReference: {fileID: 0}
     - target: {fileID: 7932633946675389121, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1889,8 +1889,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148737415502}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: 130.69322, y: 42.69192, z: 27.362946}
-  m_LocalScale: {x: -270.03015, y: 2.9854493, z: 89.55914}
+  m_LocalPosition: {x: 130.69322, y: 40.3, z: 27.362946}
+  m_LocalScale: {x: -270.03015, y: 6.027622, z: 151.47137}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

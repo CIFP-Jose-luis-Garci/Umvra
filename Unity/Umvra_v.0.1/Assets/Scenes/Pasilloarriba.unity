@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55870945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: -51.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -222,7 +222,7 @@ MonoBehaviour:
   playerPosition: {fileID: 1661592159}
   smoothVelocity: 0.3
   camaraVelocity: {x: 0, y: 0, z: 0}
-  offsetY: 2
+  offsetY: 10
   offsetZ: 2
   isFollowing: 1
 --- !u!1001 &136609451
@@ -1371,8 +1371,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889417975}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 259.3, y: -5.1, z: 33.899994}
-  m_LocalScale: {x: 434.36, y: 11.997, z: 80}
+  m_LocalPosition: {x: 259.3, y: -109.87, z: 34.2}
+  m_LocalScale: {x: 434.36, y: 221.50252, z: 80}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
