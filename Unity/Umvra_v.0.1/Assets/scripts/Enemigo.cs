@@ -7,9 +7,10 @@ public class Enemigo : MonoBehaviour
     Animator animator;
 
     //Referencia para instanciar
-    [SerializeField] Transform cannon;
+    [SerializeField] Transform InstanciaBalas;
     //Bala
-    [SerializeField] GameObject bala;
+    [SerializeField] GameObject Proyectil
+       ;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,7 @@ public class Enemigo : MonoBehaviour
     {
         print("FUEGO");
         //Instanciamos la bala en el canon
-        Instantiate(bala, cannon);
+        Instantiate(Proyectil, InstanciaBalas);
     }
 
 }

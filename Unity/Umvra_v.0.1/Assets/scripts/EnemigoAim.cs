@@ -11,7 +11,7 @@ public class EnemigoAim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Robot").transform;
+        player = GameObject.Find("RobotBoyIdleSprite_0").transform;
 
 
     }
