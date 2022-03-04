@@ -23,6 +23,8 @@ public class MovRobot : MonoBehaviour
     Mov_Camara Camera;
 
   public GameObject panel_pausa;
+
+    int saltos = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -146,11 +148,12 @@ public class MovRobot : MonoBehaviour
 
     void Saltar()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && animator.GetBool("Grounded"))
+        if (Input.GetKeyDown(KeyCode.Space) && saltos < 1)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
             print ("salto");
+            saltos++;
         }
     }
     void Correr()
@@ -184,7 +187,7 @@ public class MovRobot : MonoBehaviour
     {
         if (collision.gameObject.layer == 3)
         {
-           // print("toco suelo");
+          print("toco suelo");
             animator.SetBool("Grounded", true);
             animator.SetBool("Fall", false);
         }
@@ -198,6 +201,7 @@ public class MovRobot : MonoBehaviour
             print("NO toco suelo");
             animator.SetBool("Grounded", false);
             animator.SetBool("Fall", true);
+            saltos = 0;
         }
 
     }
