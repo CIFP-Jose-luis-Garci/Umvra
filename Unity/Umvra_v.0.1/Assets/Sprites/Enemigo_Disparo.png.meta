@@ -154,10 +154,10 @@ TextureImporter:
       name: Enemigo_Disparo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 124
-        width: 397
-        height: 329
+        x: 79
+        y: 125
+        width: 274
+        height: 206
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Enemigo_Disparo_1
       rect:
         serializedVersion: 2
-        x: 385
-        y: 0
-        width: 342
-        height: 453
+        x: 432
+        y: 126
+        width: 274
+        height: 207
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: Enemigo_Disparo_2
       rect:
         serializedVersion: 2
-        x: 727
-        y: 0
-        width: 337
-        height: 453
+        x: 755
+        y: 129
+        width: 270
+        height: 202
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: Enemigo_Disparo_3
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 0
-        width: 339
-        height: 453
+        x: 1116
+        y: 139
+        width: 274
+        height: 206
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Enemigo_Disparo_4
       rect:
         serializedVersion: 2
-        x: 1401
-        y: 0
-        width: 335
-        height: 453
+        x: 1411
+        y: 143
+        width: 300
+        height: 180
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: Enemigo_Disparo_5
       rect:
         serializedVersion: 2
-        x: 1733
-        y: 0
-        width: 314
-        height: 453
+        x: 1761
+        y: 144
+        width: 273
+        height: 229
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
