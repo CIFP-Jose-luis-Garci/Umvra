@@ -32,7 +32,7 @@ public class MovRobot : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         Speed = 25f;
-        jumpForce = 10f;
+        jumpForce = 22f;
         // maxSpeed = 5f;
         cameraFollow = GameObject.Find("Main Camera").GetComponent<Mov_Camara>();
 
@@ -190,6 +190,7 @@ public class MovRobot : MonoBehaviour
           print("toco suelo");
             animator.SetBool("Grounded", true);
             animator.SetBool("Fall", false);
+            saltos = 0;
         }
 
     }
@@ -201,7 +202,7 @@ public class MovRobot : MonoBehaviour
             print("NO toco suelo");
             animator.SetBool("Grounded", false);
             animator.SetBool("Fall", true);
-            saltos = 0;
+          
         }
 
     }
