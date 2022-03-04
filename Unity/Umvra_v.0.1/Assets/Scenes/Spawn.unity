@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 35061369}
   - component: {fileID: 35061368}
   - component: {fileID: 35061367}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,6 +1327,18 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7414500552218735572, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_LinearDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7414500552218735572, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -7414500552218735572, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7053156374191370071, guid: 0b8b1f29c78bad74aad6b51267f76c5f, type: 3}
       propertyPath: m_Name
       value: prota_falso
@@ -1617,6 +1629,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: ordenaant
       objectReference: {fileID: 0}
+    - target: {fileID: 1940635195007937927, guid: 9af7e32ac6e512e498fe03084efe3ded, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1940635195007937927, guid: 9af7e32ac6e512e498fe03084efe3ded, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195375175552648615, guid: 9af7e32ac6e512e498fe03084efe3ded, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af7e32ac6e512e498fe03084efe3ded, type: 3}
 --- !u!1 &1152215471 stripped
@@ -1745,6 +1769,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 33.24}
+--- !u!1 &1273320813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1940635195007937927, guid: 9af7e32ac6e512e498fe03084efe3ded, type: 3}
+  m_PrefabInstance: {fileID: 994274284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1273320815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273320813}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.5690336, y: 0.8337923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1380677, y: 2.6675847}
+  m_EdgeRadius: 0
 --- !u!1001 &1280981812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1922,7 +1977,7 @@ GameObject:
   - component: {fileID: 1664437312}
   - component: {fileID: 1664437311}
   - component: {fileID: 1664437310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FocoTecho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,7 +2085,7 @@ GameObject:
   - component: {fileID: 1848301619}
   - component: {fileID: 1848301618}
   - component: {fileID: 1848301617}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Estante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2228,9 +2283,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 554927652502983307, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1575799291901070344, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854653989030242734, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6236986549915801639, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
       propertyPath: m_Name
       value: sofa_armario
+      objectReference: {fileID: 0}
+    - target: {fileID: 6236986549915801639, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6781254737320238224, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
       propertyPath: m_RootOrder
@@ -2287,6 +2358,22 @@ PrefabInstance:
     - target: {fileID: 6781254737320238224, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581191585220014971, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7673022350575924348, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8485115310258300408, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665581413143033727, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99e26e7e5f87e8d41924b82a7e900c45, type: 3}
@@ -2511,7 +2598,7 @@ GameObject:
   - component: {fileID: 2134647971}
   - component: {fileID: 2134647970}
   - component: {fileID: 2134647969}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

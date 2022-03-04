@@ -32,7 +32,7 @@ public class MovRobot : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         Speed = 25f;
-        jumpForce = 22f;
+        jumpForce = 42f;
         // maxSpeed = 5f;
         cameraFollow = GameObject.Find("Main Camera").GetComponent<Mov_Camara>();
 
@@ -148,7 +148,7 @@ public class MovRobot : MonoBehaviour
 
     void Saltar()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && saltos < 1)
+        if (Input.GetKeyDown(KeyCode.Space) && saltos < 2)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
@@ -181,6 +181,16 @@ public class MovRobot : MonoBehaviour
       }
   }
 
+    void Morir()
+    {
+        animator. SetTrigger ("Morir");
+
+       
+        alive = false;
+    }
+
+        
+
     
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -191,6 +201,10 @@ public class MovRobot : MonoBehaviour
             animator.SetBool("Grounded", true);
             animator.SetBool("Fall", false);
             saltos = 0;
+        }
+        if(collision.gameObject.layer == 6)
+        {
+            animator.SetTrigger("Morir");
         }
 
     }
