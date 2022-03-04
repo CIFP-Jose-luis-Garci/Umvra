@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 98e814075fa47da4587d622627ca4ba7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3079763973260256277
+    second: Enemigo_Aparece_0
+  - first:
+      213: 2938761327511244562
+    second: Enemigo_Aparece_1
+  - first:
+      213: 6917160146987089702
+    second: Enemigo_Aparece_2
+  - first:
+      213: 4468412479185066350
+    second: Enemigo_Aparece_3
+  - first:
+      213: 1299755284704230654
+    second: Enemigo_Aparece_4
+  - first:
+      213: 4980637021718131070
+    second: Enemigo_Aparece_5
+  - first:
+      213: 1883489029113532754
+    second: Enemigo_Aparece_6
+  - first:
+      213: -7443160772923368536
+    second: Enemigo_Aparece_7
+  - first:
+      213: 6171763677430904864
+    second: Enemigo_Aparece_8
+  - first:
+      213: 8267535204768935877
+    second: Enemigo_Aparece_9
+  - first:
+      213: -2697949203533552239
+    second: Enemigo_Aparece_10
+  - first:
+      213: 4732877130932786036
+    second: Enemigo_Aparece_11
+  - first:
+      213: 8623316262750967599
+    second: Enemigo_Aparece_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemigo_Aparece_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 299
+        height: 301
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 12, y: 0, z: 16, w: 244}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebd6cdcbfa7245d0800000000000000
+      internalID: -3079763973260256277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo_Aparece_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 116
+        width: 296
+        height: 306
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 2, y: 3, z: 21, w: 230}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f86fd6bd398c820800000000000000
+      internalID: 2938761327511244562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo_Aparece_2
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 115
+        width: 291
+        height: 307
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 15, w: 186}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f77a74180beff50800000000000000
+      internalID: 6917160146987089702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo_Aparece_3
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 114
+        width: 277
+        height: 308
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 136}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e699fb3a97df20e30800000000000000
+      internalID: 4468412479185066350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo_Aparece_4
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 114
+        width: 274
+        height: 308
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 120}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc7bb78b88a90210800000000000000
+      internalID: 1299755284704230654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemigo_Aparece_5
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 119
+        width: 275
+        height: 303
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 94}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e713ba29bf6ce1540800000000000000
+      internalID: 4980637021718131070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9bad600c85d243b42b602d9560fc8190
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
