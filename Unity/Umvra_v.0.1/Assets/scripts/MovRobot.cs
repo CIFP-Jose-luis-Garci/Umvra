@@ -289,5 +289,10 @@ public class MovRobot : MonoBehaviour
         {
             SceneManager.LoadScene("EasterEGGS");
         }
+
+        if (other.gameObject.tag == "Enemigo")
+        {
+
+        }
     }
 }

@@ -9,6 +9,7 @@ public class UI_Botones : MonoBehaviour
 {
     public void NuevaPartida()
     {
+        GameManager.vidasJug = 3;
         SceneManager.LoadScene(2);
     }
 

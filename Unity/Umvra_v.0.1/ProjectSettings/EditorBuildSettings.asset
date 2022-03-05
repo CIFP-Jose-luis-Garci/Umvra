@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EasterEGGS.unity
     guid: e514e5a6d2d00c84aab61bbda0b23360
+  - enabled: 1
+    path: Assets/Scenes/Pant_Muerte.unity
+    guid: 9d85cf607cc6d104bb6018bcd81bd367
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
