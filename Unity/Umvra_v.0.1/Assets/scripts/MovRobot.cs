@@ -22,7 +22,7 @@ public class MovRobot : MonoBehaviour
 
     Mov_Camara Camera;
 
-  public GameObject panel_pausa;
+    public GameObject panel_pausa;
 
     int saltos = 0;
     // Start is called before the first frame update
@@ -49,7 +49,7 @@ public class MovRobot : MonoBehaviour
 
             Saltar();
 
-           
+
         }
 
         Pausar();
@@ -57,11 +57,11 @@ public class MovRobot : MonoBehaviour
 
     // Camera = GetComponent<StopFollowing>();
 
-   
+
 
     private void OnTriggerExit2D(Collider2D other)
     {
-       
+
         if (other.gameObject.name == "Pared")
         {
             cameraFollow.SendMessage("StartFollowing");
@@ -80,7 +80,7 @@ public class MovRobot : MonoBehaviour
         {
             Caminar();
             Correr();
-           
+
         }
 
     }
@@ -107,14 +107,14 @@ public class MovRobot : MonoBehaviour
         {
             animator.SetBool("Walk", false);
         }
-        else 
-        { 
-            animator.SetBool("Walk", true); 
+        else
+        {
+            animator.SetBool("Walk", true);
         }
         rb.velocity = new Vector2(desplX * Speed, rb.velocity.y);
         speed = rb.velocity.x;
         speed = Mathf.Abs(speed);
-       // animator.SetFloat("SpeedX", speed);
+        // animator.SetFloat("SpeedX", speed);
         //print(speed);
     }
     void Roll()
@@ -129,8 +129,8 @@ public class MovRobot : MonoBehaviour
         }
         rb.AddForce(Vector2.right * jumpForce, ForceMode2D.Impulse);
         rb.AddForce(Vector2.left * jumpForce, ForceMode2D.Impulse);
-            
-        
+
+
     }
     void Girar()
     {
@@ -152,13 +152,13 @@ public class MovRobot : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
-            print ("salto");
+            print("salto");
             saltos++;
         }
     }
     void Correr()
     {
-       if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             animator.SetBool("Run", true);
         }
@@ -172,37 +172,37 @@ public class MovRobot : MonoBehaviour
         speed = 15f;
     }
 
-  void Pausar()
-  {
-      if (Input.GetKeyDown(KeyCode.Escape))
-      {
-          Time.timeScale = 0;
-      panel_pausa.SetActive(true);
-      }
-  }
+    void Pausar()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            panel_pausa.SetActive(true);
+        }
+    }
 
     void Morir()
     {
-        animator. SetTrigger ("Morir");
+        animator.SetTrigger("Morir");
 
-       
+
         alive = false;
     }
 
-        
 
-    
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 3)
         {
-          print("toco suelo");
+            print("toco suelo");
             animator.SetBool("Grounded", true);
             animator.SetBool("Fall", false);
             saltos = 0;
         }
-        if(collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6)
         {
             animator.SetTrigger("Morir");
         }
@@ -216,12 +216,12 @@ public class MovRobot : MonoBehaviour
             print("NO toco suelo");
             animator.SetBool("Grounded", false);
             animator.SetBool("Fall", true);
-          
+
         }
 
     }
-    
-  
+
+
 
     private void OnTriggerEnter2D(Collider2D other)
 
@@ -288,11 +288,6 @@ public class MovRobot : MonoBehaviour
         if (other.gameObject.tag == "Eggs")
         {
             SceneManager.LoadScene("EasterEGGS");
-        }
-
-        if (other.gameObject.tag == "Enemigo")
-        {
-
         }
     }
 }
