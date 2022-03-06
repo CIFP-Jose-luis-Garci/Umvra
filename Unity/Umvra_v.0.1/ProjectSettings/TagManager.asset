@@ -19,6 +19,7 @@ TagManager:
   - Lavanderia
   - Eggs
   - Enemigo
+  - Game over
   layers:
   - Default
   - TransparentFX
