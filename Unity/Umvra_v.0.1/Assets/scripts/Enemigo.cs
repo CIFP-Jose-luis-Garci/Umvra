@@ -35,4 +35,5 @@ public class Enemigo : MonoBehaviour
         Instantiate(Proyectil, InstanciaBalas);
     }
 
+
 }

@@ -4,38 +4,36 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 {
-    [SerializeField] string torretaTag;
-    [SerializeField] GameObject[] torretas;
-
-    // Start is called before the first frame update
-    void Start()
+    GameObject[] torretas;
+    private void Start()
     {
-        torretas = GameObject.FindGameObjectsWithTag(torretaTag);
-        print(torretas.Length);
+
+        torretas = GameObject.FindGameObjectsWithTag("Enemigo");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //print("Me han pisao");
-        foreach (GameObject torreta in torretas)
+        if (other.gameObject.name == "RobotBoyIdleSprite_0")
         {
-            EnemigoAim enemigoAim = torreta.GetComponent<EnemigoAim>();
-            enemigoAim.SendMessage("ActivarTorreta");
+            //Activar torretas
+            foreach (GameObject torreta in torretas)
+            {
+                torreta.SendMessage("Activar");
+            }
         }
+
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        foreach (GameObject torreta in torretas)
+        if (other.gameObject.name == "RobotBoyIdleSprite_0")
         {
-            EnemigoAim enemigoAim = torreta.GetComponent<EnemigoAim>();
-            enemigoAim.SendMessage("DesactivarTorreta");
+            foreach (GameObject torreta in torretas)
+            {
+                torreta.SendMessage("Desactivar");
+            }
         }
+
     }
 }
