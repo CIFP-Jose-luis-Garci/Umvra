@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3950879583535828310}
   - component: {fileID: 9174705058191096826}
   - component: {fileID: 2086739753917918645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 6133187493241391024}
   - component: {fileID: 148705581549361637}
   - component: {fileID: 8850116035248282953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: estanteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 1804636322022389134}
   - component: {fileID: 2821036278076923121}
   - component: {fileID: 2761332530970258703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
