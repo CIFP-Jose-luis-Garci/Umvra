@@ -20,6 +20,7 @@ TagManager:
   - Eggs
   - Enemigo
   - Game over
+  - jugador
   layers:
   - Default
   - TransparentFX

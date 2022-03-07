@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 {
+
+    Rigidbody2D rb;
+
     GameObject[] torretas;
     private void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
         torretas = GameObject.FindGameObjectsWithTag("Enemigo");
     }
-
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == "RobotBoyIdleSprite_0")
+        if (other.gameObject.tag == "jugador")
         {
+            print("OWO");
             //Activar torretas
             foreach (GameObject torreta in torretas)
             {
