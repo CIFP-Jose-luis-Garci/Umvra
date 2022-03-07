@@ -10,7 +10,7 @@ public class Mov_Camara : MonoBehaviour
     [SerializeField] Vector3 camaraVelocity = Vector3.zero;
 
     [SerializeField] float offsetY = 2f;
-    [SerializeField] float offsetZ = 2f;
+   // [SerializeField] float offsetZ = 2f;
 
     [SerializeField] bool isFollowing = true;
 
